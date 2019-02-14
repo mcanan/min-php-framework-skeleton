@@ -1,0 +1,1 @@
+# min-php-framework-skeleton

@@ -1,0 +1,18 @@
+{
+	"name": "zjuegos/web",
+	"type": "project",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/mcanan/min-php-framework"
+		}
+	],
+	"require": {
+		"mcanan/framework": "dev-master"
+	},
+	"autoload": {
+	    "psr-4": {
+			"mcanan\\app\\": "app/"
+		}
+	}
+}

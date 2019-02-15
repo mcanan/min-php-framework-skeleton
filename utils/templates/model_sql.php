@@ -1,5 +1,5 @@
 <?php
-$result_file = $project_dir."/app/models/".ucfirst(strtolower($model)).".php";
+$result_file = $project_dir."/app/models/".strtolower($model).".php";
 $class_name = ucfirst(strtolower($model));
 $key_var = "\$$id";
 $key = $id;

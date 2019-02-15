@@ -1,0 +1,5 @@
+let FtpUpdateServer="ftp.servidor.com"
+let FtpUpdatePath="/home/project/www/"
+let FtpSync_Proto="ftp"
+let netrw_uid="project"
+let netrw_passwd="password"

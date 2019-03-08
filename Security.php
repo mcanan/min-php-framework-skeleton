@@ -3,7 +3,7 @@ namespace mcanan;
 
 class Security extends \mcanan\framework\BasicSecurity
 {
-    function isAuthorized($controller, $action, $parameters)
+    function isAuthorized($url, $controller, $action, $parameters)
     {
         if ($controller=='login'){
 			return true;
